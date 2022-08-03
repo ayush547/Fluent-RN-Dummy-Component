@@ -134,7 +134,7 @@ describe('useSlots sample code test suite', () => {
     /** Now the inner closure, pretty much the same as before */
     return (extra: TextProps, children: React.ReactNode) => {
       /**
-       * Instead of rendering the <BoldTextStageed> component directly we render using the slot. If this is a staged component it will call the
+       * Instead of rendering the <BoldTextStaged> component directly we render using the slot. If this is a staged component it will call the
        * inner closure directly, without going through createElement. Entries passed into the JSX, including children, are what appear in the
        * props of the inner closure. (In this example `extra`)
        *

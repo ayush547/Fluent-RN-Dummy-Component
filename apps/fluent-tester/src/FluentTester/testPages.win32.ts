@@ -28,7 +28,6 @@ import { ExperimentalMenuButtonTest, HOMEPAGE_EXPERIMENTAL_MENU_BUTTON } from '.
 import { ActivityIndicatorTest, HOMEPAGE_ACTIVITY_INDICATOR_BUTTON } from './TestComponents/ActivityIndicator';
 import { MenuTest, HOMEPAGE_MENU_BUTTON } from './TestComponents/Menu';
 import { ShadowTest, HOMEPAGE_SHADOW_BUTTON } from './TestComponents/Shadow';
-// --> testPage import insert
 
 export const tests: TestDescription[] = [
   {
@@ -176,5 +175,4 @@ export const tests: TestDescription[] = [
     component: ShadowTest,
     testPage: HOMEPAGE_SHADOW_BUTTON,
   },
-  // --> testPage component insert,,,
 ];

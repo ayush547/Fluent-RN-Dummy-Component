@@ -22,6 +22,7 @@ import { ActivityIndicatorTest, HOMEPAGE_ACTIVITY_INDICATOR_BUTTON } from './Tes
 import { HOMEPAGE_TOKEN_BUTTON, TokenTest } from './TestComponents/Tokens';
 import { ExperimentalCheckboxTest, HOMEPAGE_CHECKBOX_EXPERIMENTAL_BUTTON } from './TestComponents/CheckboxExperimental';
 import { TextExperimentalTest, HOMEPAGE_EXPERIMENTAL_TEXT_BUTTON } from './TestComponents/TextExperimental';
+import { DummyTest, HOMEPAGE_DUMMY_BUTTON } from './TestComponents/Dummy';
 
 export const tests: TestDescription[] = [
   {
@@ -138,5 +139,10 @@ export const tests: TestDescription[] = [
     name: 'Tokens Test',
     component: TokenTest,
     testPage: HOMEPAGE_TOKEN_BUTTON,
+  },
+  {
+    name: 'Dummy Test',
+    component: DummyTest,
+    testPage: HOMEPAGE_DUMMY_BUTTON,
   },
 ];
